@@ -1,8 +1,8 @@
 # Laravel Shopee
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/laraditz/shopee.svg?style=flat-square)](https://packagist.org/packages/laraditz/shopee)
-[![Total Downloads](https://img.shields.io/packagist/dt/laraditz/shopee.svg?style=flat-square)](https://packagist.org/packages/laraditz/shopee)
-![GitHub Actions](https://github.com/laraditz/shopee/actions/workflows/main.yml/badge.svg)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/mycools/shopee-api.svg?style=flat-square)](https://packagist.org/packages/mycools/shopee-api)
+[![Total Downloads](https://img.shields.io/packagist/dt/mycools/shopee-api.svg?style=flat-square)](https://packagist.org/packages/mycools/shopee-api)
+
 
 Laravel package for interacting with Shopee API V2.
 
