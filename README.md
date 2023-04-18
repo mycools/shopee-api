@@ -4,14 +4,14 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/laraditz/shopee.svg?style=flat-square)](https://packagist.org/packages/laraditz/shopee)
 ![GitHub Actions](https://github.com/laraditz/shopee/actions/workflows/main.yml/badge.svg)
 
-Laravel package for interacting with Shopee API.
+Laravel package for interacting with Shopee API V2.
 
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require mycools/shopee
+composer require mycools/shopee-api
 ```
 ## Before Start
 
@@ -45,7 +45,9 @@ Below are all methods available under this package.
 | payment()         | escrowDetail()            | Get the accounting detail of an order.  
 | shop()            | generateAuthorizationURL()| Get shop authorization URL for shop to authorize.  
 |                   | getInfo()                 | Get shop information.  
-
+| product()         | searchItem()              | Search product on shop.  
+|                   | getItemBaseInfo()         | Get product base information.  
+|                   | getItemExtraInfo()        | Get product extra information.  
 
 ## Usage
 
