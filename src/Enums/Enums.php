@@ -1,6 +1,6 @@
 <?php
 
-namespace Laraditz\Shopee\Enums;
+namespace Mycools\Shopee\Enums;
 
 class Enums
 {

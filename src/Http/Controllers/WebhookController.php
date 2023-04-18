@@ -1,16 +1,16 @@
 <?php
 
-namespace Laraditz\Shopee\Http\Controllers;
+namespace Mycools\Shopee\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
-use Laraditz\Shopee\Models\ShopeeShop;
-use Laraditz\Shopee\Models\ShopeeOrder;
-use Laraditz\Shopee\Models\ShopeeRequest;
-use Laraditz\Shopee\Enums\EntityType;
+use Mycools\Shopee\Models\ShopeeShop;
+use Mycools\Shopee\Models\ShopeeOrder;
+use Mycools\Shopee\Models\ShopeeRequest;
+use Mycools\Shopee\Enums\EntityType;
 use Illuminate\Validation\UnauthorizedException;
 use Illuminate\Support\Arr;
-use Laraditz\Shopee\Events\WebhookReceived;
+use Mycools\Shopee\Events\WebhookReceived;
 
 class WebhookController extends Controller
 {

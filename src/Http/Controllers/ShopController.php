@@ -1,11 +1,11 @@
 <?php
 
-namespace Laraditz\Shopee\Http\Controllers;
+namespace Mycools\Shopee\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
-use Laraditz\Shopee\Models\ShopeeShop;
-use Laraditz\Shopee\Enums\EntityType;
+use Mycools\Shopee\Models\ShopeeShop;
+use Mycools\Shopee\Enums\EntityType;
 use Illuminate\Validation\UnauthorizedException;
 
 class ShopController extends Controller
@@ -29,7 +29,7 @@ class ShopController extends Controller
         if ($shop) {
             $response =  app('shopee')->auth()->accessToken($shop->id, EntityType::Shop);
 
-            if ($response && $response instanceof \Laraditz\Shopee\Models\ShopeeAccessToken) {
+            if ($response && $response instanceof \Mycools\Shopee\Models\ShopeeAccessToken) {
                 $shopResponse = app('shopee')->shop()->getInfo($shop->id);
 
                 if ($shopResponse) {

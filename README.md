@@ -24,7 +24,7 @@ SHOPEE_PARTNER_KEY=<your_shopee_partner_id>
 
 (Optional) You can publish the config file via this command:
 ```bash
-php artisan vendor:publish --provider="Laraditz\Shopee\ShopeeServiceProvider" --tag="config"
+php artisan vendor:publish --provider="Mycools\Shopee\ShopeeServiceProvider" --tag="config"
 ```
 
 Run the migration command to create the necessary database table.
@@ -65,7 +65,7 @@ This package also provide an event to allow your application to listen for Shope
 
 | Event                                     |  Description  
 |-------------------------------------------|-----------------------|
-| Laraditz\Shopee\Events\WebhookReceived    | Receive a push content from Shopee. 
+| Mycools\Shopee\Events\WebhookReceived    | Receive a push content from Shopee. 
 
 ### Changelog
 

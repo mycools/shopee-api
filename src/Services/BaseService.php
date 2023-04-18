@@ -1,10 +1,10 @@
 <?php
 
-namespace Laraditz\Shopee\Services;
+namespace Mycools\Shopee\Services;
 
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Str;
-use Laraditz\Shopee\Models\ShopeeRequest;
+use Mycools\Shopee\Models\ShopeeRequest;
 
 class BaseService
 {

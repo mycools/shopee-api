@@ -1,10 +1,10 @@
 <?php
 
-namespace Laraditz\Shopee;
+namespace Mycools\Shopee;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use Laraditz\Shopee\Console;
+use Mycools\Shopee\Console;
 
 class ShopeeServiceProvider extends ServiceProvider
 {

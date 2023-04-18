@@ -1,9 +1,9 @@
 <?php
 
-namespace Laraditz\Shopee\Console;
+namespace Mycools\Shopee\Console;
 
 use Illuminate\Console\Command;
-use Laraditz\Shopee\Models\ShopeeAccessToken;
+use Mycools\Shopee\Models\ShopeeAccessToken;
 
 class RefreshTokenCommand extends Command
 {

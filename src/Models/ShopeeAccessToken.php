@@ -1,6 +1,6 @@
 <?php
 
-namespace Laraditz\Shopee\Models;
+namespace Mycools\Shopee\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

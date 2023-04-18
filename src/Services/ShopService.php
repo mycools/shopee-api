@@ -1,9 +1,9 @@
 <?php
 
-namespace Laraditz\Shopee\Services;
+namespace Mycools\Shopee\Services;
 
-use Laraditz\Shopee\Models\ShopeeShop;
-use Laraditz\Shopee\Enums\ShopStatus;
+use Mycools\Shopee\Models\ShopeeShop;
+use Mycools\Shopee\Enums\ShopStatus;
 
 class ShopService extends BaseService
 {

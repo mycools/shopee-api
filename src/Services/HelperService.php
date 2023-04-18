@@ -1,6 +1,6 @@
 <?php
 
-namespace Laraditz\Shopee\Services;
+namespace Mycools\Shopee\Services;
 
 class HelperService
 {

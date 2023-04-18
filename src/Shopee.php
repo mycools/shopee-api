@@ -1,6 +1,6 @@
 <?php
 
-namespace Laraditz\Shopee;
+namespace Mycools\Shopee;
 
 use Illuminate\Support\Str;
 use BadMethodCallException;
@@ -16,7 +16,7 @@ class Shopee
         if (in_array($property_name, $this->services)) {
             $reformat_property_name = ucfirst(Str::camel($method));
 
-            $service_name = 'Laraditz\\Shopee\\Services\\' . $reformat_property_name . 'Service';
+            $service_name = 'Mycools\\Shopee\\Services\\' . $reformat_property_name . 'Service';
 
             return new $service_name;
         } else {

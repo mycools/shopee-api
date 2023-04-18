@@ -1,6 +1,6 @@
 <?php
 
-namespace Laraditz\Shopee\Events;
+namespace Mycools\Shopee\Events;
 
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Foundation\Events\Dispatchable;

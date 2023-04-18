@@ -1,9 +1,9 @@
 <?php
 
-namespace Laraditz\Shopee\Services;
+namespace Mycools\Shopee\Services;
 
-use Laraditz\Shopee\Models\ShopeeOrder;
-use Laraditz\Shopee\Models\ShopeeShop;
+use Mycools\Shopee\Models\ShopeeOrder;
+use Mycools\Shopee\Models\ShopeeShop;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class OrderService extends BaseService

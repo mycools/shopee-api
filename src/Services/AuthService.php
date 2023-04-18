@@ -1,10 +1,10 @@
 <?php
 
-namespace Laraditz\Shopee\Services;
+namespace Mycools\Shopee\Services;
 
-use Laraditz\Shopee\Models\ShopeeShop;
-use Laraditz\Shopee\Models\ShopeeAccessToken;
-use Laraditz\Shopee\Enums\EntityType;
+use Mycools\Shopee\Models\ShopeeShop;
+use Mycools\Shopee\Models\ShopeeAccessToken;
+use Mycools\Shopee\Enums\EntityType;
 
 class AuthService extends BaseService
 {

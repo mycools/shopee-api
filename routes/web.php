@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Laraditz\Shopee\Http\Controllers\ShopController;
-use Laraditz\Shopee\Http\Controllers\WebhookController;
+use Mycools\Shopee\Http\Controllers\ShopController;
+use Mycools\Shopee\Http\Controllers\WebhookController;
 
 Route::prefix('shops')->name('shops.')->group(function () {
     Route::get('/authorized', [ShopController::class, 'authorized'])->name('authorized');

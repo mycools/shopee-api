@@ -1,11 +1,11 @@
 <?php
 
-namespace Laraditz\Shopee;
+namespace Mycools\Shopee;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Laraditz\Shopee\Skeleton\SkeletonClass
+ * @see \Mycools\Shopee\Skeleton\SkeletonClass
  */
 class ShopeeFacade extends Facade
 {
