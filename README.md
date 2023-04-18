@@ -11,7 +11,7 @@ Laravel package for interacting with Shopee API.
 You can install the package via composer:
 
 ```bash
-composer require laraditz/shopee
+composer require mycools/shopee
 ```
 ## Before Start
 
@@ -77,11 +77,12 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ### Security
 
-If you discover any security related issues, please email raditzfarhan@gmail.com instead of using the issue tracker.
+If you discover any security related issues, please email jarak.krit@gmail.com instead of using the issue tracker.
 
 ## Credits
 
 -   [Raditz Farhan](https://github.com/laraditz)
+-   [Jirawat R.](https://github.com/mycools)
 -   [All Contributors](../../contributors)
 
 ## License
