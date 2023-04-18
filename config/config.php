@@ -28,6 +28,17 @@ return [
         'payment' => [
             'get_escrow_detail' => '/api/v2/payment/get_escrow_detail',
         ],
+        'product' => [
+            'get_category' => '/api/v2/product/get_category',
+            'get_attributes' => '/api/v2/product/get_attributes',
+            'get_brand_list' => '/api/v2/product/get_brand_list',
+            'get_dts_limit' => '/api/v2/product/get_dts_limit',
+            'get_item_limit' => '/api/v2/product/get_item_limit',
+            'get_item_list' => '/api/v2/product/get_item_list',
+            'get_item_base_info' => '/api/v2/product/get_item_base_info',
+            'get_item_extra_info' => '/api/v2/product/get_item_extra_info',
+            'search_item' => '/api/v2/product/search_item'
+        ]
     ],
     'middleware' => ['api'],
 ];
