@@ -1,11 +1,11 @@
 {
-    "name": "laraditz/shopee",
-    "description": "A simple laravel package for Shopee",
+    "name": "mycools/shopee-api",
+    "description": "A simple laravel package for Shopee API V2",
     "keywords": [
-        "laraditz",
+        "mycools",
         "shopee"
     ],
-    "homepage": "https://github.com/laraditz/shopee",
+    "homepage": "https://github.com/mycools/shopee-api",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -13,11 +13,16 @@
             "name": "Raditz Farhan",
             "email": "raditzfarhan@gmail.com",
             "role": "Developer"
+        },
+        {
+            "name": "Jirawat R.",
+            "email": "jarak.krit@gmail.com",
+            "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.4|^8.0",
-        "illuminate/support": "^8.0"
+        "php": "^7.4|^8.0|8.1",
+        "illuminate/support": "^8.0|^9.0|^10.0",
     },
     "require-dev": {
         "orchestra/testbench": "^6.0",
@@ -25,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Laraditz\\Shopee\\": "src"
+            "Mycools\\Shopee\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Laraditz\\Shopee\\Tests\\": "tests"
+            "Mycools\\Shopee\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,10 +49,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Laraditz\\Shopee\\ShopeeServiceProvider"
+                "Mycools\\Shopee\\ShopeeServiceProvider"
             ],
             "aliases": {
-                "Shopee": "Laraditz\\Shopee\\ShopeeFacade"
+                "Shopee": "Mycools\\Shopee\\ShopeeFacade"
             }
         }
     }
